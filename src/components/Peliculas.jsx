@@ -9,13 +9,16 @@ const Peliculas = ({ datos, borrarPelicula }) => {
   return (
     <section>
       <hr className="mb-3" />
-      <h2 className="text-center">Películas Registradas</h2>
+      <h3 className="my-4 text-center">Películas Registradas</h3>
+      <div className="row">
       {datos.length === 0 ? (
-        <p className="py-3 mx-auto">No hay películas registradas</p>
+        <p className="py-3 text-center">No hay películas registradas</p>
       ) : (
         datos.map((peli, indice) => (<CardPelicula key={indice} peli={peli} borrarPelicula={handleBorrarPelicula}/>
         ))
       )}
+      </div>
+
     </section>
   );
 };
