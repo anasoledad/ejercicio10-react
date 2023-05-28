@@ -3,7 +3,7 @@ import CardPelicula from "./CardPelicula";
 
 const Peliculas = ({ datos, borrarPelicula }) => {
   const handleBorrarPelicula = (nombre) => {
-    borrarCita(nombre);
+    borrarPelicula(nombre);
   };
 
   return (
