@@ -8,15 +8,15 @@ function BrandExample() {
 
       <Navbar variant="dark" className='py-3 bgPeli'>
         <Container>
-          <Navbar.Brand href="#home">
+          <Navbar.Brand href="index.html">
             <img
               alt="logo"
-              src="src/images/logo.png"
-              width="40"
+              src="/images/logo.png"
+              width="70"
               height="40"
               className="d-inline-block align-top"
             />{' '}
-           <strong className='fs-4 ps-2'>Registro de Películas</strong> 
+           <strong className='fs-4'>Registro de Películas</strong> 
           </Navbar.Brand>
         </Container>
       </Navbar>

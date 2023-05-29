@@ -49,12 +49,12 @@ const Formulario = () => {
     <>
       <Container className="pt-4 pb-5 px-3">
         <div className="d-flex justify-content-center">
-          <Col lg={8} className="border border-2 rounded-4 p-5 bgForm mb-3">
-            <h4 className="mb-4">
+          <Col lg={8} className="border border-2 rounded-4 p-5 bgForm mb-3 text-white">
+            <h4 className="mb-4 ">
               LLenar el formulario para registrar una película
             </h4>
             <hr />
-            <Form onSubmit={handleSubmit}>
+            <Form onSubmit={handleSubmit} className="">
               <Form.Group className="mb-3" controlId="nombre">
                 <Form.Label>
                   <strong>Nombre de Pelicula</strong>
@@ -78,7 +78,11 @@ const Formulario = () => {
                   <option>Seleccione un género</option>
                   <option value="Acción">Acción</option>
                   <option value="Drama">Drama</option>
-                  <option value="3">Three</option>
+                  <option value="Aventura">Aventura</option>
+                  <option value="Ciencia Ficción">Ciencia Ficción</option>
+                  <option value="Drama">Comedia</option>
+                  <option value="Fantasia">Fantasia</option>
+                  <option value="Documental">Documental</option>
                 </Form.Select>
               </Form.Group>
               <Form.Group className="mb-3" controlId="descripcion">
@@ -94,7 +98,7 @@ const Formulario = () => {
                 />
               </Form.Group>
               <div className="d-flex justify-content-center justify-content-sm-end">
-                <Button variant="dark" className="px-5 mb-3" type="submit">
+                <Button variant="secondary" className="px-5 mb-3" type="submit">
                   Agregar Película
                 </Button>
               </div>

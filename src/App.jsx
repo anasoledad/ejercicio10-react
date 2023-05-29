@@ -12,7 +12,7 @@ function App() {
     <>
     <NavbarPeli></NavbarPeli>
       <Container className='pt-5 mainPage'>
-          <h3 className='text-center mb-3'>Administrar Películas</h3>
+          <h2 className='text-center mb-3 py-3 border border-2 border-dark rounded-3 bg-white'>Administrar Películas</h2>
           <Formulario></Formulario>
       </Container>
      <Footer></Footer>

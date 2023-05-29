@@ -1,3 +1,22 @@
 .bgPeli{
-    background: rgb(36, 12, 110);
+    background: rgb(47, 23, 120);
 }
+
+.bgForm{
+    background: #091c50;
+}
+.bgCard{
+    background: #66749c;
+}
+#root{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url('../public/images/fondo.png'); 
+    background-repeat: unset;
+    background-size: cover;
+  }
+  
+  .mainPage{
+    flex-grow: 1;
+  }

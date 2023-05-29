@@ -9,7 +9,7 @@ const Peliculas = ({ datos, borrarPelicula }) => {
   return (
     <section>
       <hr className="mb-3" />
-      <h3 className="my-4 text-center">Películas Registradas</h3>
+      <h3 className='text-center mb-3 py-3 border border-2 border-dark rounded-3 bg-white mt-5'>Películas Registradas</h3>
       <div className="row">
       {datos.length === 0 ? (
         <p className="py-3 text-center">No hay películas registradas</p>
